@@ -39,9 +39,9 @@ public class Click : MonoBehaviour
                 StartCoroutine("IdlePicareta");
             } else {
                 float y = metronomo.transform.position.y;
-                if (y < .5f) {
+                if (y < -1.4f) {
                     nada.SetActive(true);
-                } else if (y < 1.5f) {
+                } else if (y < 1.8f) {
                     bom.SetActive(true);
                 } else if (y < 2.5f) {
                     excelente.SetActive(true);

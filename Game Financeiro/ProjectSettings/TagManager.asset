@@ -49,3 +49,15 @@ TagManager:
   - name: cobreArea
     uniqueID: 3210536849
     locked: 0
+  - name: peca
+    uniqueID: 1657817561
+    locked: 0
+  - name: ferreceptor
+    uniqueID: 1731821733
+    locked: 0
+  - name: ferramenta
+    uniqueID: 2691014283
+    locked: 0
+  - name: slider
+    uniqueID: 3621727703
+    locked: 0

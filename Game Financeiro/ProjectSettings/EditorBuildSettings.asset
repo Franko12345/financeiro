@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/menu.unity
+    guid: 6cfb823b87cd42241b714d2ff8d8caf3
+  - enabled: 1
+    path: Assets/Limpeza/limpeza.unity
+    guid: 84b131c2de86c7043ade7c51eb9b1f97
+  - enabled: 1
+    path: Assets/Escavacao/escavacao.unity
+    guid: 2c16e9e395667c941a5448b6e88fb49b
   m_configObjects: {}

@@ -5,12 +5,15 @@ using UnityEngine;
 public class peca : MonoBehaviour
 {
     bool naMesa = false;
-    bool pronta = false;
+    public bool pronta = false;
     List<Transform> mesas;
     int mSize = 0;
     public FerramentaReceptor[] demandas;
     int iDemanda = 0;
     Transform cesto;
+    FerramentaReceptor fr;
+    public float tratTime;
+    int indexMesa;
     
     void Start()
     {
@@ -35,9 +38,9 @@ public class peca : MonoBehaviour
                 if (m.vazia) {
                     naMesa = true;
                     m.vazia = false;
+                    indexMesa = i;
                     transform.position = m.transform.position;
-                    FerramentaReceptor fr = 
-                        Instantiate(demandas[0] , transform.position , Quaternion.identity);
+                    fr = Instantiate(demandas[0] , transform.position , Quaternion.identity);
                     fr.p = this;
                     return;
                 }
@@ -63,12 +66,19 @@ public class peca : MonoBehaviour
         sp.color = originalColor;
     }
 
+    //peça pede proxima acao ou fica pronta e vai para o vaso.
     public void ProximaDemanda () {
         iDemanda++;
         if (iDemanda >= demandas.Length) { //pronta
             pronta = true;
             naMesa = false;
             transform.position = cesto.transform.position;
+            mesas[indexMesa].GetComponent<mesa>().vazia = true;
+            Destroy(fr.gameObject);
+        } else {
+            Destroy(fr.gameObject);
+            fr = Instantiate(demandas[iDemanda] , transform.position , Quaternion.identity);
+            fr.p = this;
         }
     }
 }

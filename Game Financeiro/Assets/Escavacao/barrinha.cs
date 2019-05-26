@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class barrinha : MonoBehaviour
 {
-    float vel = 8   ;
+    float vel = 13   ;
     void Start()
     {
         
