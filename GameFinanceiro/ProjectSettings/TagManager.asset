@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - mesa
+  - cesto
+  - contadorInventario
+  - RelicsScene
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Escavavao
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: fundo
+    uniqueID: 2384350711
+    locked: 0
+  - name: arqueologo
+    uniqueID: 3545419819
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: gambiarraPainelFerra
+    uniqueID: 1144536279
+    locked: 0
+  - name: cobreArea
+    uniqueID: 3210536849
+    locked: 0
+  - name: peca
+    uniqueID: 1657817561
+    locked: 0
+  - name: ferreceptor
+    uniqueID: 1731821733
+    locked: 0
+  - name: pensamento
+    uniqueID: 2201242889
+    locked: 0
+  - name: ferramentaFundo
+    uniqueID: 2741283213
+    locked: 0
+  - name: ferramenta
+    uniqueID: 2691014283
+    locked: 0
+  - name: contador
+    uniqueID: 4052074253
+    locked: 0
+  - name: slider
+    uniqueID: 3621727703
+    locked: 0
+  - name: UITempo
+    uniqueID: 972639525
+    locked: 0
+  - name: desistirDoJogo
+    uniqueID: 1747410673
+    locked: 0
+  - name: tempoEsgotado
+    uniqueID: 2097733121
+    locked: 0
