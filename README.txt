@@ -1,8 +1,9 @@
-Um protÛtipo para um jogo financeiro.
-A parte a ser testada È o gameplay de escavaÁ„o
+Um prot√≥tipo para um jogo financeiro.
+A parte a ser testada √© o gameplay de escava√ß√£o
 De repente vou melhorar com os alunos
-Fiz essa vers„o muit„o r·pido
-uheauheuhaeuhaeuha
+Fiz essa vers√£o muit√£o r√°pido
+uheauheuhaeuhaeuhasadkuashuudoas eu tambem consigo funcionaa a
+a
 asjhdfiashdfas
 D:
 kkkkkkkkkk
